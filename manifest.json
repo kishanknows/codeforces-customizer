@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "codeforces customizer",
+  "version": "1.0.0",
+  "description": "this extension customizes codeforces ui",
+
+  "content_scripts": [
+    {
+      "js": ["scripts.js"],
+      "matches": [
+        "https://codeforces.com/problemset/**/*",
+        "https://codeforces.com/problemset"
+      ]
+    }
+  ]
+}
