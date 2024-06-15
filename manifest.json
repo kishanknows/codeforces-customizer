@@ -7,10 +7,7 @@
   "content_scripts": [
     {
       "js": ["scripts.js"],
-      "matches": [
-        "https://codeforces.com/problemset/**/*",
-        "https://codeforces.com/problemset"
-      ]
+      "matches": ["https://codeforces.com/*"]
     }
   ]
 }
